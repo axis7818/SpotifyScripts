@@ -1,0 +1,17 @@
+{
+  "name": "spotify-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/axis7818/SpotifyScripts.git",
+  "author": "Cameron Taylor <axis7818@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "like-all-album-songs": "./scripts/like-all-album-songs.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "yargs": "^17.0.1"
+  }
+}
